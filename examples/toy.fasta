@@ -1,0 +1,6 @@
+>sp|PTOY1|TOY_PROTEIN_1 Small toy protein 1
+MPEPTIDEKACDEK
+>sp|PTOY2|TOY_PROTEIN_2 Small toy protein 2 with repeated peptide
+ACDEKPEPTIDER
+>custom_protein_3 unsupported residues are filtered
+MTESTPEPTIDEXK

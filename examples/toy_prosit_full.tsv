@@ -1,0 +1,12 @@
+ModifiedPeptide	PrecursorCharge	PrecursorMz	ProductMz	LibraryIntensity	FragmentType	FragmentSeriesNumber	FragmentCharge	ProteinId	Tr_recalibrated	PredictionModel
+PEPTIDEK	2	450.2301	175.119	1000.0	y	7	1	P_TOY_1	4.2	Prosit
+PEPTIDEK	2	450.2301	301.15	800.0	b	3	1	P_TOY_1	4.2	Prosit
+PEPTIDEK	2	450.2301	612.3	600.0	y	5	1	P_TOY_1	4.2	Prosit
+PEPTIDEK	2	450.2301	214.09	400.0	b	2	1	P_TOY_1	4.2	Prosit
+PEPTIDEK	2	450.2301	389.21	200.0	y	3	1	P_TOY_1	4.2	Prosit
+ACDEK	2	303.12	147.06	500.0	b	2	1	P_TOY_2	2.1	Prosit
+ACDEK	2	303.12	276.1	300.0	y	3	1	P_TOY_2	2.1	Prosit
+TIEPEPTIDER	3	512.3	310.1	900.0	y	4	1	P_TOY_3	6.5	Prosit
+TIEPEPTIDER	3	512.3	280.12	900.0	b	3	1	P_TOY_3	6.5	Prosit
+TIEPEPTIDER	3	512.3	520.25	450.0	y	6	2	P_TOY_3	6.5	Prosit
+TIEPEPTIDER	3	512.3	402.18	250.0	b	5	1	P_TOY_3	6.5	Prosit

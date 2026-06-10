@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compact-dia-library"
+version = "1.0.2"
+description = "CLI utility for constructing compact DIA spectral libraries and FASTA-derived precursor tables."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Compact DIA Library developers"}
+]
+keywords = ["proteomics", "DIA", "spectral library", "Prosit", "MS2PIP", "DIA-NN"]
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.22",
+  "typer>=0.9",
+  "rich>=13.0"
+]
+
+[project.optional-dependencies]
+parquet = ["pyarrow>=10"]
+koina = ["koinapy>=0.0.10"]
+deeplc = ["deeplc>=1.1.2"]
+dev = ["pytest>=7", "pyarrow>=10"]
+
+[project.scripts]
+compactlib = "compactlib.cli:app"
+
+[tool.setuptools.packages.find]
+include = ["compactlib*"]
