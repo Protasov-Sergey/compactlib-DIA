@@ -1,0 +1,132 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs/examples
+toy_out/
+*.summary.tsv
+*.params.json
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Large generated spectral libraries and prediction outputs
+*.fullhuman.tsv
+*.fullhuman.tsv.gz
+*Prosit*.tsv
+*MS2PIP*.tsv
+*Union*.tsv
+Max*_prosit_lib.tsv
+Max*_ms2pip_lib.tsv
+*_max*.tsv
+*_Max*.tsv
+
+# Chunked prediction workdirs
+*.chunked_work/
+*.work/
+predicted_chunks/
+precursor_chunks/
+koina_full_logs/
+
+# Local black-box / benchmark outputs
+compactlib_blackbox*/
+compactlib_build*/
+*_predict_test/
+
+# Large generated spectral libraries and prediction outputs
+*.fullhuman.tsv
+*.fullhuman.tsv.gz
+Max*_prosit_lib.tsv
+Max*_ms2pip_lib.tsv
+*_prosit_lib.tsv
+*_ms2pip_lib.tsv
+
+# Chunked prediction work directories
+*.chunked_work/
+*.work/
+predicted_chunks/
+precursor_chunks/
+koina_full_logs/
+
+# Local black-box / benchmark outputs
+compactlib_blackbox*/
+compactlib_build*/
+*_predict_test/
+
+# Large local data/artifacts
+*.mzML
+*.raw
+*.parquet
+*.zip
+*.tar.gz
+
+# Large generated spectral libraries and prediction outputs
+*.fullhuman.tsv
+*.fullhuman.tsv.gz
+Max*_prosit_lib.tsv
+Max*_ms2pip_lib.tsv
+*_prosit_lib.tsv
+*_ms2pip_lib.tsv
+
+# Chunked prediction work directories
+*.chunked_work/
+*.work/
+predicted_chunks/
+precursor_chunks/
+koina_full_logs/
+
+# Local black-box / benchmark outputs
+compactlib_blackbox*/
+compactlib_build*/
+*_predict_test/
+
+# Large local data/artifacts
+*.mzML
+*.raw
+*.parquet
+*.zip
+*.tar.gz
+
+# Large generated spectral libraries and prediction outputs
+*.fullhuman.tsv
+*.fullhuman.tsv.gz
+Max*_prosit_lib.tsv
+Max*_ms2pip_lib.tsv
+*_prosit_lib.tsv
+*_ms2pip_lib.tsv
+*Prosit*.large.tsv
+*MS2PIP*.large.tsv
+*Union*.large.tsv
+
+# Chunked prediction work directories
+*.chunked_work/
+*.work/
+predicted_chunks/
+precursor_chunks/
+koina_full_logs/
+
+# Local black-box / benchmark outputs
+compactlib_blackbox*/
+compactlib_build*/
+*_predict_test/
+
+# Large local data/artifacts
+*.mzML
+*.raw
+*.wiff
+*.d/
+*.parquet
+*.zip
+*.tar.gz
+*.tsv.gz
