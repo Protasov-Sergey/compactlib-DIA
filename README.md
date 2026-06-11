@@ -1,7 +1,10 @@
 # compactlib-DIA
 
-**compactlib-DIA** is a utility for building compact in silico DIA spectral libraries from protein FASTA files using Prosit, MS2PIP, DeepLC and Koina-compatible prediction backends.
 [![CI](https://github.com/Protasov-Sergey/compactlib-DIA/actions/workflows/ci.yml/badge.svg)](https://github.com/Protasov-Sergey/compactlib-DIA/actions/workflows/ci.yml)
+
+compactlib-DIA is a command-line utility for building compact in silico DIA spectral libraries from protein FASTA files using Prosit, MS2PIP, DeepLC and Koina-compatible prediction backends.
+
+**compactlib-DIA** is a utility for building compact in silico DIA spectral libraries from protein FASTA files using Prosit, MS2PIP, DeepLC and Koina-compatible prediction backends.
 
 **compactlib-DIA** is a command-line utility for building compact in silico DIA spectral libraries from protein FASTA files using Prosit, MS2PIP, DeepLC and Koina-compatible prediction backends.
 
