@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [
-  {name = "Compact DIA Library developers"}
+  {name = "Sergey Protasov"}
 ]
 keywords = ["proteomics", "DIA", "spectral library", "Prosit", "MS2PIP", "DIA-NN"]
 dependencies = [
