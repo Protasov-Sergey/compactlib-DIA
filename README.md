@@ -1,12 +1,9 @@
 # compactlib-DIA
 
-<<<<<<< HEAD
 **compactlib-DIA** is a utility for building compact in silico DIA spectral libraries from protein FASTA files using Prosit, MS2PIP, DeepLC and Koina-compatible prediction backends.
-=======
 [![CI](https://github.com/Protasov-Sergey/compactlib-DIA/actions/workflows/ci.yml/badge.svg)](https://github.com/Protasov-Sergey/compactlib-DIA/actions/workflows/ci.yml)
 
 **compactlib-DIA** is a command-line utility for building compact in silico DIA spectral libraries from protein FASTA files using Prosit, MS2PIP, DeepLC and Koina-compatible prediction backends.
->>>>>>> 1234a03 (Prepare compactlib-DIA for publication release)
 
 The main workflow produces:
 
@@ -227,7 +224,7 @@ compactlib predict-chunked \
 
 ## Limitations
 
-- DeepLC RT values are model predictions and may require calibration for a specific LC method. You can use own RT values or RT predictor for build the spectral library.
+- DeepLC RT values are model predictions and may require calibration for a specific LC method. Users may provide their own RT values or use an external RT predictor when method-specific calibration is required.
 - Selenocysteine-containing peptides can be retained during FASTA digestion for Skyline-compatible precursor-space auditing, but are generally not supported by Prosit/MS2PIP prediction backends.
 - Variable modifications should be used carefully. The default workflow is designed for fixed carbamidomethylated cysteine and no variable modifications.
 - Very large proteomes should be processed using `predict-chunked` or `build` with `--resume`.
