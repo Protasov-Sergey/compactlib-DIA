@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use compactlib-DIA, please cite this software as below."
+type: software
+title: "compactlib-DIA: compact in silico DIA spectral library generation using Prosit, MS2PIP, DeepLC and Koina"
+authors:
+  - family-names: "Protasov"
+    given-names: "Sergey"
+    orcid: "https://orcid.org/0009-0006-7113-7188"
+version: "1.0.3"
+date-released: "2026-06-18"
+license: "MIT"
+repository-code: "https://github.com/Protasov-Sergey/compactlib-DIA"
+url: "https://github.com/Protasov-Sergey/compactlib-DIA"
+abstract: "compactlib-DIA is a command-line utility for building compact in silico DIA spectral libraries from protein FASTA files using Prosit, MS2PIP, DeepLC and Koina-compatible prediction backends."
+keywords:
+  - proteomics
+  - DIA
+  - spectral library
+  - Prosit
+  - MS2PIP
+  - DeepLC
+  - Koina
